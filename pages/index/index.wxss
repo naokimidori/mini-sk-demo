@@ -1,0 +1,21 @@
+.page-index .loc-container {
+  padding: 12rpx 24rpx;
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+}
+
+.page-index .loc-pic {
+  width: 28rpx;
+  height: 28rpx;
+  margin-right: 6rpx;
+}
+
+.page-index .swiper-container {
+  margin: 12rpx 0 18rpx;
+}
+
+.swiper-item {
+  width: 100vw;
+  height: 350rpx;
+}

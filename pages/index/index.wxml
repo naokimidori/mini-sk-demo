@@ -1,0 +1,24 @@
+<view class="page-index">
+  <!-- 城市选择 -->
+  <picker mode="region" bindchange="bindRegionChange" value="{{region}}">
+    <view class="loc-container">
+      <image class="loc-pic" src="../../assets/location.png"></image>
+      <view>{{cityName}}</view>
+    </view>
+  </picker>
+
+  <!-- 轮播 -->
+  <view class="swiper-container">
+    <swiper indicator-dots="{{true}}" autoplay="{{true}}">
+      <block wx:for="{{swiperData}}" wx:key="unique">
+        <swiper-item>
+          <image class="swiper-item" src="{{item.picUrl}}" mode="widthFix"></image>
+        </swiper-item>
+      </block>
+    </swiper>
+  </view>
+
+  <block wx:for="{{cardList}}" wx:key="unique">
+    <desc-card cardData="{{item}}" />
+  </block>
+</view>

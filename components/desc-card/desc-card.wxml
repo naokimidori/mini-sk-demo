@@ -1,0 +1,7 @@
+<view class="desc-card" data-url="{{cardData.jumpUrl}}" bindtap="handleTapCard">
+  <image class="avatar" src="{{cardData.avatar}}"></image>
+  <view class="content">
+    <view class="name">{{cardData.name}}</view>
+    <view class="desc">{{cardData.desc}}</view>
+  </view>
+</view>

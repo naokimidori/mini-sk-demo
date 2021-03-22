@@ -1,0 +1,6 @@
+{
+  "navigationBarTitleText": "烧烤",
+  "usingComponents": {
+    "desc-card": "../../components/desc-card/desc-card"
+  }
+}
